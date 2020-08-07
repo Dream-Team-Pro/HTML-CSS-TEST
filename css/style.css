@@ -1,0 +1,54 @@
+body {
+    font-family: 'Recursive', sans-serif;
+}
+.ul-menu {
+    background-color: #333; 
+    color: #fff; 
+    list-style-type: none;
+}
+
+.li-menu {
+    float: left;
+}
+
+.title-menu {
+    font-size: 30px;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+}
+
+.a-menu {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: #000;
+}
+
+.column {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    font-size: 20px;
+    color: #670707;
+
+}
+
+a:hover {
+    background-color: #fff;
+}
