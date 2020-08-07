@@ -12,14 +12,6 @@ body {
     float: left;
 }
 
-.title-menu {
-    font-size: 30px;
-    display: block;
-    padding: 15px;
-    text-align: center;
-    font-family: 'Recursive', sans-serif;
-}
-
 .a-menu {
     text-decoration: none;
     color: #fff;
@@ -32,9 +24,17 @@ body {
     background-color: #000;
 }
 
+.title-menu {
+    font-size: 30px;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+}
+
 .column {
     width: 50%;
-    float: right;
+    float: left;
     text-align: center;
 }
 
@@ -85,21 +85,82 @@ body {
 
 .html {
     width: 90%;
+    animation: html 3s;
 }
 
 .css {
     width: 85%;
+    animation: css 3s;
 }
 
 .javascript {
     width: 79%;
+    animation: javascript 3s;
 }
 
 .mvc {
     width: 88%;
+    animation: mvc 3s;
 }
 
 .symfony {
     width: 80%;
+    animation: symfony 3s;
 }
 
+@keyframes html {
+    0% {
+      width: 0%;
+      background-color: rgb(255, 246, 127);  
+    }
+    100% {
+        width: 90%;
+        background-color: rgb(127, 214, 255);   
+      }
+}
+
+@keyframes css {
+    0% {
+      width: 0%;
+      background-color: rgb(255, 246, 127);  
+    }
+    100% {
+        width: 85%;
+        background-color: rgb(127, 214, 255);   
+      }
+}
+
+@keyframes javascript {
+    0% {
+      width: 0%;
+      background-color: rgb(255, 246, 127);  
+    }
+    100% {
+        width: 79%;
+        background-color: rgb(127, 214, 255);   
+      }
+}
+
+@keyframes mvc {
+    0% {
+      width: 0%;
+      background-color: rgb(255, 246, 127);  
+    }
+    100% {
+        width: 88%;
+        background-color: rgb(127, 214, 255);   
+      }
+}
+
+@keyframes symfony {
+    0% {
+      width: 0%;
+      background-color: rgb(255, 246, 127);  
+    }
+    100% {
+        width: 80%;
+        background-color: rgb(127, 214, 255);   
+      }
+}
+      
+}
