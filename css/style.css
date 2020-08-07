@@ -46,7 +46,7 @@ body {
 
 .social-icons {
     font-size: 20px;
-    color: #670707;
+    color: #333;
 }
 
 .left {
@@ -110,13 +110,13 @@ body {
 
 @keyframes html {
     0% {
-      width: 0%;
-      background-color: rgb(255, 246, 127);  
-    }
-    100% {
-        width: 90%;
-        background-color: rgb(127, 214, 255);   
+        width: 0%;
+        background-color: rgb(255, 246, 127);  
       }
+      100% {
+          width: 90%;
+          background-color: rgb(127, 214, 255);   
+        }
 }
 
 @keyframes css {
@@ -170,3 +170,30 @@ body {
     padding: 10px;
 }
 
+.project {
+    width: 300px;
+    float: left;
+    text-align: center;
+    width: 430px;
+
+}
+
+.project img {
+    width: 250px;
+    height: 150px;
+}
+
+@media screen and (max-width:800px) {
+    .column {
+        width:100%;
+    }
+
+    .a-menu {
+    font-size: 15px;
+    padding: 18px;
+    }
+
+    .title-menu {
+    font-size: 20px;
+    }
+}
